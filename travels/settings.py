@@ -25,8 +25,11 @@ SECRET_KEY = 'django-insecure-fds!kpd0o79b!9!1jvaf#@!#a54%cgi14#rsg!=c68hd0(s^tj
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'bus-travels.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
 
 
 # Application definition
@@ -65,6 +68,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
+    "bus-travels.onrender.com"
     "http://localhost:5174",
 ]
 
