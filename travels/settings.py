@@ -29,6 +29,7 @@ ALLOWED_HOSTS = [
     'bus-travels.onrender.com',
     'localhost',
     '127.0.0.1',
+    'https://travels-frontend-narsis-projects-300cf110.vercel.app',
 ]
 
 
@@ -68,8 +69,9 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "bus-travels.onrender.com"
+    "bus-travels.onrender.com",
     "http://localhost:5174",
+    "https://travels-frontend-narsis-projects-300cf110.vercel.app",
 ]
 
 
